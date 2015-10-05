@@ -1,5 +1,6 @@
-Table
-<?php
-	require_once("functions.php");
-	getALLData();
+siia tuleb tabel
+<?php  
+    require_once("functions.php");
+    
+    getAllData();
 ?>
