@@ -1,17 +1,6 @@
 <?php
-    //loome AB ühenduse
-    /*  
-        // config_global.php
-        $servername = "";
-        $server_username = "";
-        $server_password = "";
-    
-    */
-    require_once("config_global.php");
+    require_once("../config_global.php");
     $database = "if15_romil_1";
-    
-    //paneme sessiooni serveris tööle, saaame kasutada SESSION[]
- 
     function getAllData(){
         
         $mysqli = new mysqli($GLOBALS["servername"], $GLOBALS["server_username"], $GLOBALS["server_password"], $GLOBALS["database"]);
